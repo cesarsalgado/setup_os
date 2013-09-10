@@ -1,5 +1,4 @@
-# paramenter 1 ($1) is the path to the folder where the dotfiles shoulde be cloned.
-# if the folder isn't empty then it will be assumed that needed dotfiles are already there.
+# setup that I will use in Linux OS that I access remotely.
 
 fail () {
   printf "\r\033[2K  [\033[0;31mFAIL\033[0m] $1\n"
