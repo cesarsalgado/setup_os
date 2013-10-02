@@ -10,6 +10,7 @@ sudo apt-get install git
 sudo apt-get install vim
 sudo apt-get install meld
 sudo apt-get install r-base r-base-dev
+sudo apt-get install imagemagick
 
 # commands to install node.js
 sudo apt-get update
