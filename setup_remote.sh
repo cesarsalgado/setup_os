@@ -13,6 +13,7 @@ sudo apt-get install meld
 sudo apt-get install r-base r-base-dev
 sudo apt-get install imagemagick
 sudo apt-get install curl
+sudo apt-get install octave
 
 
 # commands to install node.js
