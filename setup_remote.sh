@@ -29,6 +29,10 @@ sudo apt-get install -y nodejs
 sudo npm install -g ungit
 
 
+# install ruby
+sudo apt-get install ruby1.9.1
+
+
 # part below copy setup the dotfiles.
 cd $HOME
 
