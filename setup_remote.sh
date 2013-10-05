@@ -15,6 +15,10 @@ sudo apt-get install imagemagick
 sudo apt-get install curl
 sudo apt-get install octave
 
+# install ipython and some packages
+sudo apt-get install ipython-notebook
+sudo apt-get install python-matplotlib python-scipy python-pandas python-sympy python-nose
+
 
 # commands to install node.js
 # Install a special package
