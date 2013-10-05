@@ -1,4 +1,5 @@
 # setup that I will use in Linux OS that I access remotely.
+# search for manually to see steps that should be done manually
 
 fail () {
   printf "\r\033[2K  [\033[0;31mFAIL\033[0m] $1\n"
@@ -57,3 +58,13 @@ ln -sb dotfiles/vim/.vimrc .
 
 ln -sb dotfiles/git/.gitconfig .
 ln -sb dotfiles/git/.gitignore_global .
+
+
+# install ConqueTerm. It is useful to run ipython alongside vim.
+# remember to disable autoident in ipython.
+wget https://conque.googlecode.com/files/conque_2.3.vmb
+# manually:
+# Open the .vba file with Vim and run the following commands:
+# :so %
+# :q
+# delete the conque_2.3.vmb
