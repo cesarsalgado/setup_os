@@ -16,11 +16,6 @@ sudo apt-get install imagemagick
 sudo apt-get install curl
 sudo apt-get install octave
 
-# install ipython and some packages
-sudo apt-get install ipython-notebook
-sudo apt-get install python-matplotlib python-scipy python-pandas python-sympy python-nose
-sudo apt-get install python-sklearn
-
 
 # commands to install node.js
 # Install a special package
@@ -39,6 +34,14 @@ sudo npm install -g ungit
 # install ruby
 sudo apt-get install ruby1.9.1
 
+# install ipython and some packages
+sudo apt-get install ipython-notebook
+curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | sudo python
+sudo pip install numpy
+sudo pip install scipy
+sudo apt-get install python-matplotlib
+sudo pip install pandas
+sudo pip install scikit-learn
 
 # part below copy setup the dotfiles.
 cd $HOME
