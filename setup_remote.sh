@@ -19,6 +19,7 @@ sudo apt-get install octave
 # install ipython and some packages
 sudo apt-get install ipython-notebook
 sudo apt-get install python-matplotlib python-scipy python-pandas python-sympy python-nose
+sudo apt-get install python-sklearn
 
 
 # commands to install node.js
