@@ -34,6 +34,9 @@ sudo npm install -g ungit
 
 # install ruby
 sudo apt-get install ruby1.9.1
+sudo apt-get install ruby1.9.1-dev
+sudo apt-get install ruby-bundler 
+
 
 # install ipython and some packages
 sudo apt-get install ipython-notebook
