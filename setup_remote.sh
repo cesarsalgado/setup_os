@@ -37,6 +37,9 @@ sudo apt-get install ruby1.9.1
 sudo apt-get install ruby1.9.1-dev
 sudo apt-get install ruby-bundler 
 
+# install middleman
+sudo gem install middleman
+bundle install
 
 # install ipython and some packages
 sudo apt-get install ipython-notebook
