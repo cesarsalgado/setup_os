@@ -36,8 +36,8 @@ sudo npm install -g ungit
 sudo apt-get install ruby1.9.1
 
 # install ipython and some packages
-sudo apt-get install ipython-notebook
 curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | sudo python
+sudo pip install ipython[notebook]
 sudo pip install numpy
 sudo pip install scipy
 sudo apt-get install python-matplotlib
