@@ -43,6 +43,7 @@ sudo pip install scipy
 sudo apt-get install python-matplotlib
 sudo pip install pandas
 sudo pip install scikit-learn
+sudo pip install scikit-image
 
 # part below copy setup the dotfiles.
 cd $HOME
