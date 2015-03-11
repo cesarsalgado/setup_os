@@ -17,6 +17,7 @@ sudo apt-get install imagemagick
 sudo apt-get install curl
 sudo apt-get install octave
 
+sudo apt-get install python-dev
 
 # commands to install node.js
 # Install a special package
