@@ -10,11 +10,15 @@ fail () {
 sudo apt-get update
 sudo apt-get install nautilus-open-terminal
 sudo apt-get install git
-sudo apt-get install vim
+sudo apt-get install vim-gtk
+sudo apt-get install curl
+sudo apt-get install python-dev
+sudo apt-get install g++ make cmake
+
 sudo apt-get install meld
 sudo apt-get install r-base r-base-dev
 sudo apt-get install imagemagick
-sudo apt-get install curl
+
 sudo apt-get install octave
 
 
@@ -42,13 +46,14 @@ sudo gem install middleman
 bundle install
 
 # install ipython and some packages
-sudo apt-get install ipython-notebook
-curl https://raw.github.com/pypa/pip/master/contrib/get-pip.py | sudo python
+curl https://bootstrap.pypa.io/get-pip.py | sudo python
+sudo pip install ipython[notebook]
 sudo pip install numpy
 sudo pip install scipy
 sudo apt-get install python-matplotlib
 sudo pip install pandas
 sudo pip install scikit-learn
+sudo pip install scikit-image
 
 # part below copy setup the dotfiles.
 cd $HOME
