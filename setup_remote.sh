@@ -1,5 +1,5 @@
-# setup that I will use in Linux OS that I access remotely.
-# search for manually to see steps that should be done manually
+# setup that I will use in Linux OS.
+# install dropbox and sync my_projects folder at least
 
 fail () {
   printf "\r\033[2K  [\033[0;31mFAIL\033[0m] $1\n"
@@ -68,12 +68,15 @@ fi
 #  git clone https://github.com/cesarsalgado/dotfiles.git $1
 #fi
 
-git clone https://github.com/cesarsalgado/dotfiles.git
+ln -s Dropbox/my_projects/dotfiles/vim/.vimrc .
+ln -s Dropbox/my_projects/dotfiles/git/.gitconfig .
+ln -s Dropbox/my_projects/dotfiles/git/.gitignore_global .
 
-ln -sb dotfiles/vim/.vimrc .
-
-ln -sb dotfiles/git/.gitconfig .
-ln -sb dotfiles/git/.gitignore_global .
+# if don't have dropbox
+#git clone https://github.com/cesarsalgado/dotfiles.git
+#ln -sb dotfiles/vim/.vimrc .
+#ln -sb dotfiles/git/.gitconfig .
+#ln -sb dotfiles/git/.gitignore_global .
 
 
 # install ConqueTerm. It is useful to run ipython alongside vim.
